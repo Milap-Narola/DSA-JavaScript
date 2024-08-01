@@ -9,12 +9,13 @@ function findMissingNumbers(array, count) {
 }
 
 
-let a = [1, 2, 4, 5,6];
-let b =[10,11,13,14]
-let count = 6;
+let a = [1, 2, 4, 5, 6];
+let b = [10, 11, 13, 14]
 
+let count = 6;
+let count2 = 14;
 let missingNumbers = findMissingNumbers(a, count);
-let missingNumbers2 = findMissingNumbers(b, count);
-console.log(missingNumbers); 
-console.log(missingNumbers2); 
+let missingNumbers2 = findMissingNumbers(b, count2);
+console.log(missingNumbers, missingNumbers2);
+
 

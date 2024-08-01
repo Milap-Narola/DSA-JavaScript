@@ -21,5 +21,9 @@ const target1 = 2;
 const arr2 = [10, 20, 20, 10, 10];
 const target2 = 10;
 
-console.log(countOccurrences(arr1, target1));
-console.log(countOccurrences(arr2, target2));
+let count1 =countOccurrences(arr1, target1);
+let count2=countOccurrences(arr2, target2);
+
+console.log(count1);
+console.log(count2);
+

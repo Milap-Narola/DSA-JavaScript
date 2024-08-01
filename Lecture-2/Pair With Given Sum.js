@@ -16,4 +16,5 @@ const sumofPair = (arr, target) => {
 let arr = [1, 2, 3, 4, 5]
 let target = 9;
 
-console.log(sumofPair(arr, target));
+result = sumofPair(arr, target);
+console.log(`The pair is ${result[0]} + ${result[1]} = ${target}`);

@@ -11,6 +11,7 @@ const moveZero = (arr) => {
     for (let i = zero; i < arr.length; i++) {
         arr[i] = 0;
     }
+    return arr;  
 }
 
 const arr = [0, 1, 0, 3, 12];
