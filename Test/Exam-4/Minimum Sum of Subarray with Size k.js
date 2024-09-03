@@ -1,6 +1,6 @@
 const minSumSubarray = (nums, k) => {
 
-    let minSum = Infinity;
+    let minSum = 0;
     let currentSum = 0;
 
     for (let i = 0; i < k; i++) {
