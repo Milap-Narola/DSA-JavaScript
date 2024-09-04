@@ -1,4 +1,4 @@
-let str = "testingtest"
+let str = "classic"
 let map = new Map()
 
 for (let i = 0; i < str.length; i++) {
